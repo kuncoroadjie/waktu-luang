@@ -82,7 +82,7 @@
 }
 
 #clock #time div span:nth-child(2) {
-    height: 16px;
+    height: 20px;
     font-size: 0.4em;
     letter-spacing: 0.2em;
     font-weight: 500;
