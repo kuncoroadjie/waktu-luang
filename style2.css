@@ -30,7 +30,7 @@
     text-align: center;
 }
 #clock p {
-    margin-top: 400px;
+    margin-top: 300px;
     font-family: 'Open Sans';
     font-weight: 700;
     color: #fff;
@@ -82,7 +82,7 @@
 }
 
 #clock #time div span:nth-child(2) {
-    height: 12px;
+    height: 16px;
     font-size: 0.4em;
     letter-spacing: 0.2em;
     font-weight: 500;
