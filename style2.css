@@ -33,8 +33,8 @@
         margin-left: 0.2em;
     }
     #clock #time div span {
-        width: 75px;
-        height: 55px;
+        width: 55px;
+        height: 35px;
     }
     #clock .quotes {
         margin: 150px auto 0 auto;
