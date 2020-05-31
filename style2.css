@@ -13,7 +13,7 @@
     }
     #time .dot {
         font-size: 3.5em;
-        margin-left: 0.6em;
+    
     }
 }
 
@@ -30,22 +30,29 @@
     }
     #time .dot {
         font-size: 2.3em;
-        margin-left: 0.4em;
+        margin-left: 0.2em;
     }
     #clock #time div span {
-        width: 90px;
-        height: 70px;
+        width: 75px;
+        height: 55px;
     }
     #clock .quotes {
-        margin: 80px auto 0 auto;
-        width: 300px;
-        height: 300px;
+        margin: 150px auto 0 auto;
+        width: 200px;
+        height: 200px;
         padding: 15px 0;
         box-shadow:  10px 10px 0px 0 rgba(0,0,0,.2);
-}
-    #clock .quotes .author {
-        color: rgb(0, 140, 233);
     }
+    .quotes .text {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #244D49;
+            text-shadow: 3px 3px 0px #D7DACC;
+    }
+    #clock .quotes .author {
+        color: rgb(2, 88, 146);
+    }
+}
 @media screen and (max-width:500px) {
     .home-container {
         padding: 15px 0;
@@ -79,9 +86,9 @@
     
 }
 #clock .quotes {
-    margin: 150px auto 0 auto;
-    width: 300px;
-    height: 300px;
+    margin: 80px auto 0 auto;
+    width: 250px;
+    height: 220px;
     background-color: rgba(255,255,255,.5);
 }
 #clock p {
