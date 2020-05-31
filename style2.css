@@ -43,15 +43,6 @@
         padding: 15px 0;
         box-shadow:  10px 10px 0px 0 rgba(0,0,0,.2);
     }
-    .quotes .text {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            color: #244D49;
-            text-shadow: 3px 3px 0px #D7DACC;
-    }
-    #clock .quotes .author {
-        color: rgb(2, 88, 146);
-    }
 }
 @media screen and (max-width:500px) {
     .home-container {
@@ -156,4 +147,14 @@
 }
 #clock #time div:last-child span:nth-child(2) {
     background: #ec0062;
+}
+.quotes .text {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #244D49;
+    text-shadow: 1.6px 1.6px 0px #D7DACC;
+}
+    #clock .quotes .author {
+        color: rgb(2, 88, 146);
+        text-shadow: 1.6px 1.6px 0px rgb(200, 255, 0);
 }
