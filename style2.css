@@ -121,6 +121,8 @@
 
 #clock #time div span {
     position: relative;
+    width: 65px;
+    height: 45px;
     display: block;
     background: #2196F3;
     color: #fff;
